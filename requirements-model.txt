@@ -1,0 +1,10 @@
+# requirements-model.txt   (upload mode and running the model)
+-r requirements.txt
+torch
+torchvision
+segmentation-models-pytorch
+rasterio
+geopandas
+shapely
+scipy
+scikit-image

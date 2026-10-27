@@ -1,0 +1,16 @@
+# .gitignore
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+
+# large or private; regenerate or download instead
+data/raw/
+data/tiles/
+data/outputs/
+data/outputs_v2/
+models/*.pth
+*.zip
+test_3band.tif
+.streamlit/secrets.toml

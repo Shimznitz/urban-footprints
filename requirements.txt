@@ -1,0 +1,7 @@
+# requirements.txt   (dashboard and demo mode; no GPU, no model files needed)
+streamlit==1.66.0
+numpy
+pandas
+matplotlib
+pillow
+folium
