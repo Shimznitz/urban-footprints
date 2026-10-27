@@ -34,7 +34,7 @@ It prints OK, FAIL or SKIP for each part. SKIP means an optional part (the model
 ```bash
 pip install -r requirements-model.txt
 ```
-Download `unet_resnet50_8band.pth` from <RELEASE-LINK> into `models/`, then open the dashboard,
+Download `unet_resnet50_8band.pth` from (https://github.com/Shimznitz/urban-footprints/releases/tag/v0.1) into `models/`, then open the dashboard,
 choose **Analyse your own imagery** and drag in one or more GeoTIFFs.
 
 The imagery must be: **8 bands in WorldView-3 band order, about 0.3 to 0.6 m pixels, georeferenced,
